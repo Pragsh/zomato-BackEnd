@@ -3,8 +3,8 @@ const routes =require('./Routes/index');
 const mongoose = require('mongoose');
 const cors = require('cors');
 
-const port = 2023;
-const host = 'localhost';
+const port = process.env.PORT || 2023;
+const host = '0.0.0.0';
 const app = express();
 
 
