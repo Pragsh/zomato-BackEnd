@@ -1,4 +1,3 @@
-const { default: axios } = require('axios');
 let orderData = require('../Models/orderHistory');
 
 exports.saveOrder = (req, res) =>{
